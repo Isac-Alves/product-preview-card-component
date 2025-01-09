@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.card {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2.5%;
+    display: flex;
+    gap: 40px;
+}
+
+
+.product-image img{
+    height: 100%;
+    border-radius: 2.5% 0 0 2.5%;
+    
+}
+
+.card .product-informations {
+    height: 100%;
+    width: 40%;
+}
+
+button {
+    height: 50px;
+    width: 320px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 20px;
+}
+
+.price {
+    display: flex;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.old-price {
+    text-decoration: line-through;
+    display: inline;
+}
