@@ -80,9 +80,48 @@ button {
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     opacity: 60%;
-    text-align: justify;
 }
 
 .name {
     line-height: 0.9;
+}
+
+@media (max-width: 620px) {
+    
+    button {
+        height: 50px;
+        width: 281px; 
+        margin: 20px 0;
+    }
+
+    .card {
+        width: 320px;
+        height: 650px;
+        display: grid;
+        display: inline-block;
+    }
+    
+    .product-image {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .product-image img {
+        border-radius: 2.5% 2.5% 0 0;
+        height: 280px;
+        width: 320px;
+        object-fit: cover;
+
+    }
+    
+    .prices {
+        margin: 0;
+    }
+
+    .card .product-informations {
+        height: 100%;
+        width: 88%;
+        margin: 0 20px 0 20px ;
+        
+    }
 }
