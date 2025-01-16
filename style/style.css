@@ -18,6 +18,7 @@ button {
     
      
 }
+
 .card {
     width: 600px;
     height: 400px;
@@ -31,7 +32,6 @@ button {
     gap: 30px;
     
 }
-
 
 .product-image img{
     height: 100%;
@@ -63,13 +63,15 @@ button {
     text-decoration: line-through;
     display: inline;
     font-size: 13px;
-
+    vertical-align: text-top;
 }
 
 .perfume {
     font-family: 'Oswald';
-    font-size: 11PX;
+    font-size: 10.5px;
     margin-top: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 
@@ -78,5 +80,9 @@ button {
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     opacity: 60%;
+    text-align: justify;
 }
 
+.name {
+    line-height: 0.9;
+}
